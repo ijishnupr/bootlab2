@@ -19,11 +19,7 @@
         body {
             background-color: black;
         }
-        @media screen and (width<=576px) {
-            .or{
-                order:3;
-            }
-        }
+       
         
     </style>
 </head>
@@ -32,7 +28,7 @@
     <div class="container mt-5">
         <div class="row">
             
-                <div class="col-lg bg-primary h">
+                <div class="col-lg order-md-1 bg-primary h">
 
                     <ul class="nav-menu">
                         <li class="nav-item "><a class="nav-link" >home</a></li>
@@ -42,10 +38,10 @@
                     </ul>
                 
             </div>
-            <div class="col-lg bg-warning h or" >
+            <div class="col-lg order-md-3 bg-warning h " >
                 <p> this contains the content of the website</p>
             </div>
-            <div class="col bg-danger h">
+            <div class="col bg-danger order-md-2 h">
                 footer
             </div>
         </div>
